@@ -40,6 +40,9 @@ class ReverseTransformer : IStringTransformation
         {
             reversedString += charArray[i];  
         }
+        //char[] charArray = input.ToCharArray(); o anche cosi al posto del for
+        //Array.Reverse(charArray);
+       
 
         return reversedString;
     }
